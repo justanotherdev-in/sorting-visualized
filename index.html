@@ -14,9 +14,10 @@
             <select onchange="setSortingType(this.value)" name="sorting_type">
                 <option value="bubble">Bubble Sort</option>
                 <option value="selection">Selection Sort</option>
+                <option selected value="insertion">Insertion Sort</option>
             </select>
             <!-- <input class="header_right" id="total_elements" onchange="addNodes(this)" name="elements" placeholder="Number of Elements" /> -->
-            <input class="slider" onchange="addNodes(this.value)" type="range" min="5" max="100" value="50">
+            <input id="totalNodes" class="slider" onchange="addNodes(this.value)" type="range" min="5" max="100" value="50">
         </div>
     </header>
     <div class="main">
